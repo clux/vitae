@@ -1,6 +1,6 @@
 # Vitae
 
-Personal resume, occasionally well updated. Uses LaTeX, builds a pdf.
+Personal resume, occasionally well-updated. Uses LaTeX, builds a pdf.
 
 ## Building
 
