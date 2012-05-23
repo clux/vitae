@@ -4,10 +4,8 @@
 %This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
 
 \documentclass[letterpaper,11pt]{article}
-
 %-----------------------------------------------------------
 %Margin setup
-
 \setlength{\voffset}{0.1in}
 \setlength{\paperwidth}{8.5in}
 \setlength{\paperheight}{11in}
@@ -21,25 +19,17 @@
 \setlength{\oddsidemargin}{-0.25in}
 \setlength{\evensidemargin}{-0.25in}
 
-
 \usepackage[svgnames]{xcolor}
 \usepackage{framed}
 \definecolor{shadecolor}{gray}{0.85}  % Background color of title bars
-
-
 %-----------------------------------------------------------
-%\usepackage{fullpage}
-%\usepackage{shading}
-%\textheight=9.0in
 \pagestyle{empty}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
-
 %-----------------------------------------------------------
 %Custom commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
-%\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}} %doesnt work with pdftexify, below is a hack not using shading
 \newcommand{\resheading}[1]{\parbox{\textwidth}{\begin{shaded}\textbf{\sffamily{\mbox{~}{\large #1}\vphantom{p\^{E}}}}\end{shaded}}}
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
@@ -47,33 +37,8 @@
 		\textit{#3} & \textit{#4} \\
 \end{tabular*}\vspace{-6pt}}
 %-----------------------------------------------------------
-
-% TODO: take ideas from this an put into action, particularly the gracefully degrading hyperlinks
-%\header{Eirik}{Albrigtsen}
-%       {open source ninja}
-
-% In the aside, each new line forces a line break
-%\begin{aside}
-%  \section{about}
-%    Address
-%    RG1 1ET, Reading
-%    UK
-%    ~
-%    \href{mailto:eirikalbrigtsen@gmail.com}{eirikalbrigtsen@gmail.com}
-%    \href{http://github.com/clux}{git://clux}
-%    \href{http://twitter.com/sszynrae}{@sszynrae}
-%    \href{http://clux.org}{http://clux.org}
-%  \section{languages}
-%    bilingual norwegian/english
-%  \section{programming}
-%    Haskell
-%    JavaScript (ES5, node.js)
-%    C++, Python, PHP
-%\end{aside}
-
-
 \begin{document}
-
+%-----------------------------------------------------------
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
 \textbf{\Large Eirik Albrigtsen}  & XXXXXX-XXXXX\\
 Address & eirikalbrigtsen@gmail.com \\
@@ -145,23 +110,23 @@ Reading, RG1 1ET & http://github.com/clux/\\
 
 \resheading{Languages}
 \begin{description}
-\item
-  \ressubheading{Haskell}{Comfortable}{H2010 w/GHC}{since 2012}
-\item
-  \ressubheading{JavaScript}{Disciplined}{ES5 w/node.js + window}{since 2007}
-\item
-  \ressubheading{C++}{Comfortable}{X$\subset$C++03 w/jam \& gcc}{since 2010}
-\item
-\item[Miscellaneous:] SQL, MongoQL, Python, PHP, CSS (SASS/stylus)
-\item[Spoken:] Norwegian \& English (bilingual)
+  \item
+    \ressubheading{Haskell}{Comfortable}{H2010 w/GHC}{since 2012}
+  \item
+    \ressubheading{JavaScript}{Disciplined}{ES5 w/node.js + window}{since 2007}
+  \item
+    \ressubheading{C++}{Comfortable}{X$\subset$C++03 w/jam \& gcc}{since 2010}
+  \item
+  \item[Miscellaneous:] SQL, MongoQL, Python, PHP, CSS (SASS/stylus)
+  \item[Spoken:] Norwegian \& English (bilingual)
 \end{description}
 
 \resheading{Interests}
 \begin{description}
-\item[Programming:] FP, TDD, CI, DVCS, NoSQL, Linux
-\item[Academic:] Cryptography, optimization of algorithms, artificial intelligence
-\item[Misc:] Badminton, rollerblading, swimming, photography, gaming
+  \item[Programming:] FP, TDD, CI, DVCS, NoSQL, Linux
+  \item[Academic:] Cryptography, optimization of algorithms, artificial intelligence
+  \item[Misc:] Badminton, rollerblading, swimming, photography, gaming
 \end{description}
-
-
+%-----------------------------------------------------------
 \end{document}
+%-----------------------------------------------------------
