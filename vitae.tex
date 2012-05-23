@@ -1,11 +1,15 @@
 % (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
 % (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
 % (c) 2007-2012 Eirik Albrigtsen <analsandblaster@gmail.com> http://clux.org
-%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+% This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License.
+% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
 
 \documentclass[letterpaper,11pt]{article}
+
 %-----------------------------------------------------------
-%Margin setup
+% Margin & Style Setup
+%-----------------------------------------------------------
+
 \setlength{\voffset}{0.1in}
 \setlength{\paperwidth}{8.5in}
 \setlength{\paperheight}{11in}
@@ -22,13 +26,16 @@
 \usepackage[svgnames]{xcolor}
 \usepackage{framed}
 \definecolor{shadecolor}{gray}{0.85}  % Background color of title bars
-%-----------------------------------------------------------
+
 \pagestyle{empty}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
+
 %-----------------------------------------------------------
-%Custom commands
+% Custom commands
+%-----------------------------------------------------------
+
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
 \newcommand{\resheading}[1]{\parbox{\textwidth}{\begin{shaded}\textbf{\sffamily{\mbox{~}{\large #1}\vphantom{p\^{E}}}}\end{shaded}}}
 \newcommand{\ressubheading}[4]{
@@ -36,9 +43,11 @@
 		\textbf{#1} & #2 \\
 		\textit{#3} & \textit{#4} \\
 \end{tabular*}\vspace{-6pt}}
+
 %-----------------------------------------------------------
 \begin{document}
 %-----------------------------------------------------------
+
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
 \textbf{\Large Eirik Albrigtsen}  & XXXXXX-XXXXX\\
 Address & eirikalbrigtsen@gmail.com \\
@@ -116,7 +125,7 @@ Reading, RG1 1ET & http://github.com/clux/\\
     \ressubheading{JavaScript}{Disciplined}{ES5 w/node.js + window}{since 2007}
   \item
     \ressubheading{C++}{Comfortable}{X$\subset$C++03 w/jam \& gcc}{since 2010}
-  \item
+  \item % blank li    
   \item[Miscellaneous:] SQL, MongoQL, Python, PHP, CSS (SASS/stylus)
   \item[Spoken:] Norwegian \& English (bilingual)
 \end{description}
@@ -127,6 +136,7 @@ Reading, RG1 1ET & http://github.com/clux/\\
   \item[Academic:] Cryptography, optimization of algorithms, artificial intelligence
   \item[Misc:] Badminton, rollerblading, swimming, photography, gaming
 \end{description}
+
 %-----------------------------------------------------------
 \end{document}
 %-----------------------------------------------------------
