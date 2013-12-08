@@ -1,0 +1,57 @@
+body {
+  width: 700px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: initial;
+}
+
+header a {
+  float: right;
+}
+
+h2 {
+  background-color: #ccc;
+  padding: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.block li {
+  padding-left: 10px;
+}
+
+.block {
+  list-style: initial;
+  padding-left: 20px;
+}
+
+.block > li > h3 {
+  display: inline; /* so address floats correctly against it */
+
+}
+.block > li > address, .block > li > p > span {
+  float: right;
+}
+.block > li > p {
+  display: block;
+  margin: 0px;
+}
+
+.block > li > ul > li > strong::after {
+  content: ":";
+}
+
+.block > li > ul {
+  margin-top: 5px; /*dont really want this if there's an h4 in between though*/
+  margin-bottom: 5px;
+}
+
+

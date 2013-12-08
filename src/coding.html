@@ -1,0 +1,20 @@
+<h2>Open Source</h2>
+<ul class="block">
+  <% Object.keys(modules).forEach(function (k) { var m = modules[k]; %>
+  <li>
+    <h3>
+      <a href="https://npmjs.org/package/<%=k%>"><%=k%></a>
+    </h3>
+    <address><%=m.info || m%></address>
+    <% if (m.related) { %>
+      <ul>
+        <% m.related.forEach(function (sub) { %>
+          <li>
+            <a href="https://npmjs.org/package/<%=sub%>"><%=sub%></a>
+          </li>
+        <% }); %>
+      </ul>
+    <% } %>
+  </li>
+  <% }); %>
+</ul>

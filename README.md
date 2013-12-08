@@ -1,17 +1,26 @@
 # Vitae
-Personal resume, occasionally well-updated. Uses LaTeX, builds a pdf.
+[![Build Status](https://secure.travis-ci.org/clux/vitae.png)](http://travis-ci.org/clux/vitae)
+[![Dependency Status](https://david-dm.org/clux/vitae.png)](https://david-dm.org/clux/vitae)
+[![stable](http://hughsk.github.io/stability-badges/dist/stable.svg)](http://nodejs.org/api/documentation.html#documentation_stability_index)
 
-## Contact
-Feel free to contact me about job opportunities. If you did this by raising an issue, that would be even cooler.
+Personal resume, occasionally well-updated. Now uses HTML5 technologies instead of LaTeX for ease of maintanance. Stashed here as weak self advertising.
 
-My current job, despite how good it is for personal development,  autonomy and salary, is being relocated. I'm interested in finding a suitable replacement in either here in London, or in Vancouver to tickle my adventuring gene.
+## Usage
+If you feel my current job at Cisco Systems is beneath me and I should be exploring new horizons with YOURCOMPANY, open an issue!
 
-All the relevant information is here. Build my CV or read the latest build yourself, and check github for my latest activity :)
+My current job is great for personal development, autonomy, and occasional remote deployment. Lenient attitudes toward these are a must, as are contributing to open source projects.
+
+Locations considered are primarily in England and Norway.
 
 ## Building
+Clone, install dependencies, and build:
 
-- Install [Tex Live](http://www.tug.org/texlive/quickinstall.html)
-- `$ xelatex vitae.tex`
+```bash
+$ git clone https://github.com/clux/vitae.git
+$ cd vitae
+$ npm install
+$ npm run build
+```
 
 ## License
-[CC BY-NC-SA 2.5](http://creativecommons.org/licenses/by-nc-sa/2.5/) license inherited. See vitae.tex for the original authors.
+MIT-Licensed. See LICENSE file for details.

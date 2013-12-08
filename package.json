@@ -1,0 +1,19 @@
+{
+  "name": "vitae",
+  "private": true,
+  "description": "Personal CV",
+  "author": "Eirik Albrigtsen <analsandblaster@gmail.com>",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "clux/vitae"
+  },
+  "scripts": {
+    "test": "npm run build",
+    "build": "src/build.js > vitae.html"
+  },
+  "dependencies": {
+    "combustion": "~0.3.1"
+  },
+  "license": "MIT"
+}

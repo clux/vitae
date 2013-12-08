@@ -1,0 +1,38 @@
+{
+  "tournament": {
+    "info": "A base class for fixed size tournaments",
+    "related": [
+      "duel",
+      "ffa",
+      "groupstage",
+      "masters",
+      "tiebreaker"
+    ]
+  },
+  "tourney": {
+    "info": "A multi-stage tournament base class",
+    "related": [
+      "groupstage-tb",
+      "ffa-tb"
+    ]
+  },
+  "gu": {
+    "info": "Streaming bot makers library with hot code reloading and regex handlers",
+    "related": [
+      "irc-stream"
+    ]
+  },
+  "interlude": {
+    "info": "A collection of functional programming modules for ES5",
+    "related": [
+      "autonomy",
+      "operators",
+      "subset"
+    ]
+  },
+  "sdp-transform": "A simple parser/writer for the Session Description Protocol",
+  "symlink": "npm local module linker",
+  "tub": "Lax streaming tap parser library and tap CLI wrapper",
+  "logule": "A configurable and modular logger",
+  "combustion": "A CommonJS compiling micro-templating engine"
+}
