@@ -6,7 +6,7 @@
 Personal resume, occasionally well-updated. Now uses HTML5 technologies instead of LaTeX for ease of maintanance. Stashed here as weak self advertising.
 
 ## Usage
-If you feel my current job at Cisco Systems is beneath me and I should be exploring new horizons with YOURCOMPANY, open an issue!
+If you feel I should be exploring new horizons with YOURCOMPANY, open an issue!
 
 My current job is great for personal development, autonomy, and occasional remote deployment. Lenient attitudes toward these are a must, as are contributing to open source projects.
 
