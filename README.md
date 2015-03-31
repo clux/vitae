@@ -1,7 +1,6 @@
 # Vitae
-[![Build Status](https://secure.travis-ci.org/clux/vitae.png)](http://travis-ci.org/clux/vitae)
-[![Dependency Status](https://david-dm.org/clux/vitae.png)](https://david-dm.org/clux/vitae)
-[![stable](http://hughsk.github.io/stability-badges/dist/stable.svg)](http://nodejs.org/api/documentation.html#documentation_stability_index)
+[![build status](https://secure.travis-ci.org/clux/vitae.svg)](http://travis-ci.org/clux/vitae)
+[![dependency status](https://david-dm.org/clux/vitae.svg)](https://david-dm.org/clux/vitae)
 
 Personal resume, occasionally well-updated. Now uses HTML5 technologies instead of LaTeX for ease of maintanance. Stashed here as weak self advertising.
 
