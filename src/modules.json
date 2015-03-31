@@ -33,6 +33,8 @@
   "sdp-transform": "A simple parser/writer for the Session Description Protocol",
   "symlink": "npm local module linker",
   "tub": "Lax streaming tap parser library and tap CLI wrapper",
+  "npm-graph": "Dependency graph generator of explicitly required modules",
+  "badgify": "Readme badge generator",
   "logule": "A configurable and modular logger",
   "combustion": "A CommonJS compiling micro-templating engine"
 }
