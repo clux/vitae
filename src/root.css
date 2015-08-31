@@ -46,7 +46,7 @@ ul {
 }
 
 .block > li > ul > li > strong::after {
-  content: ":";
+  content: ": ";
 }
 
 .block > li > ul {

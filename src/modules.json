@@ -1,40 +1,31 @@
 {
+  "linkr-app": {
+    "info": "A link sharing site built on iojs, jwt, koa, postgres and polymer",
+    "related": [
+      "bandage"
+    ],
+    "notes": "want to add icebreaker and deus-login but is not on npm"
+  },
   "tournament": {
-    "info": "A base class for fixed size tournaments",
+    "info": "Building blocks and implementations of tournaments",
     "related": [
       "duel",
       "ffa",
       "groupstage",
-      "masters",
-      "tiebreaker"
-    ]
-  },
-  "tourney": {
-    "info": "A multi-stage tournament base class",
-    "related": [
-      "groupstage-tb",
-      "ffa-tb"
+      "tiebreaker",
+      "tourney",
+      "groupstage-tb-duel"
     ]
   },
   "gu": {
     "info": "Streaming bot makers library with hot code reloading and regex handlers",
     "related": [
-      "irc-stream"
+      "irc-stream",
+      "cleverbot-irc"
     ]
   },
-  "interlude": {
-    "info": "A collection of functional programming modules for ES5",
-    "related": [
-      "autonomy",
-      "operators",
-      "subset"
-    ]
-  },
-  "sdp-transform": "A simple parser/writer for the Session Description Protocol",
-  "symlink": "npm local module linker",
-  "tub": "Lax streaming tap parser library and tap CLI wrapper",
-  "npm-graph": "Dependency graph generator of explicitly required modules",
-  "badgify": "Readme badge generator",
-  "logule": "A configurable and modular logger",
-  "combustion": "A CommonJS compiling micro-templating engine"
+  "interlude": "Functional programming utilities",
+  "sdp-transform": "Parser/writer for the Session Description Protocol",
+  "symlink": "npm link helper for a flat dependency tree during development",
+  "npm-graph": "Dependency graph generator of explicitly required modules"
 }

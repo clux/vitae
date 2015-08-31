@@ -19,7 +19,11 @@ $ git clone https://github.com/clux/vitae.git
 $ cd vitae
 $ npm install
 $ npm run build
+$ xdg-open vitae.html
 ```
+
+## Developing
+With dependencies installed, run `npm run develop`.
 
 ## License
 MIT-Licensed. See LICENSE file for details.
