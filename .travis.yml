@@ -2,13 +2,5 @@ language: node_js
 node_js:
   - 4
 
-addons:
-  apt:
-    packages:
-    - wkhtmltopdf
-
 notifications:
   email: false
-
-after_script:
-  - npm run release
