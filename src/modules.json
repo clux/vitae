@@ -1,10 +1,10 @@
 {
-  "linkr-app": {
-    "info": "A link sharing site built on iojs, jwt, koa, postgres and polymer",
+  "gu": {
+    "info": "Streaming bot makers library with regex handlers",
     "related": [
-      "bandage"
-    ],
-    "notes": "want to add icebreaker and deus-login but is not on npm"
+      "irc-stream",
+      "cleverbot-irc"
+    ]
   },
   "tournament": {
     "info": "Building blocks and implementations of tournaments",
@@ -17,11 +17,11 @@
       "groupstage-tb-duel"
     ]
   },
-  "gu": {
-    "info": "Streaming bot makers library with hot code reloading and regex handlers",
+  "linkr-app": {
+    "info": "A link sharing site prototype built with generators, jwt, koa, postgres and polymer",
     "related": [
-      "irc-stream",
-      "cleverbot-irc"
+      "bandage",
+      "deus-login"
     ]
   },
   "interlude": "Functional programming utilities",
