@@ -26,7 +26,7 @@ $ xdg-open vitae.html
 With dependencies installed, run `npm run develop`.
 
 ## Release
-To build a `.pdf` release version, run `npm run release`. This requires `wkhtmltopdf` installed. Note that [issue #3](#3) means this output is inferior to what webkit produces naturally using print to pdf.
+To build a `.pdf` release version, run `npm run release`. This requires `wkhtmltopdf` installed. Note that [issue #3](clux/vitae#3) means this output is inferior to what webkit produces naturally using print to pdf.
 
 ## License
 MIT-Licensed. See LICENSE file for details.
