@@ -25,5 +25,8 @@ $ xdg-open vitae.html
 ## Developing
 With dependencies installed, run `npm run develop`.
 
+## Release
+To build a `.pdf` release version, run `npm run release`. This requires `wkhtmltopdf` installed.
+
 ## License
 MIT-Licensed. See LICENSE file for details.
