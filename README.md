@@ -2,10 +2,10 @@
 [![build status](https://secure.travis-ci.org/clux/vitae.svg)](http://travis-ci.org/clux/vitae)
 [![dependency status](https://david-dm.org/clux/vitae.svg)](https://david-dm.org/clux/vitae)
 
-Personal resume, occasionally well-updated. Now uses HTML5 technologies instead of LaTeX for ease of maintanance. Stashed here as weak self advertising.
+Personal resume, occasionally updated. Now uses HTML5 technologies instead of LaTeX for ease of maintanance. Stashed here as weak self advertising.
 
 ## Usage
-If you feel I should be exploring new horizons with YOURCOMPANY, open an issue!
+If you feel I should be exploring new horizons with YOURCOMPANY, send me an email. It's in the json.
 
 My current job is great for personal development, autonomy, and occasional remote deployment. Lenient attitudes toward these are a must, as are contributing to open source projects.
 
