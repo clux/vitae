@@ -1,20 +1,10 @@
 {
+  "bandage": "Generator based test harness and test runner",
   "gu": {
     "info": "Streaming bot makers library with regex handlers",
     "related": [
       "irc-stream",
       "cleverbot-irc"
-    ]
-  },
-  "tournament": {
-    "info": "Building blocks and implementations of tournaments",
-    "related": [
-      "duel",
-      "ffa",
-      "groupstage",
-      "tiebreaker",
-      "tourney",
-      "groupstage-tb-duel"
     ]
   },
   "linkr-app": {
@@ -24,6 +14,16 @@
       "deus-login"
     ]
   },
+  "tournament": {
+    "info": "Building blocks and implementations of tournaments",
+    "related": [
+      "duel",
+      "ffa",
+      "groupstage",
+      "tiebreaker"
+    ]
+  },
+
   "interlude": "Functional programming utilities",
   "sdp-transform": "Parser/writer for the Session Description Protocol",
   "symlink": "npm link helper for a flat dependency tree during development",
