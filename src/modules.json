@@ -8,6 +8,7 @@
       "cleverbot-irc"
     ]
   },
+  "symlink": "npm link helper for a flat dependency tree during development",
   "linkr-app": {
     "info": "A link sharing site prototype built with generators, jwt, koa, postgres and polymer",
     "related": [
@@ -25,7 +26,5 @@
   },
 
   "interlude": "Functional programming utilities",
-  "sdp-transform": "Parser/writer for the Session Description Protocol",
-  "symlink": "npm link helper for a flat dependency tree during development",
   "npm-graph": "Dependency graph generator of explicitly required modules"
 }
