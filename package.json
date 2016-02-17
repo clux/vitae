@@ -12,7 +12,7 @@
     "test": "npm run build",
     "build": "src/build.js > vitae.html",
     "release": "wkhtmltopdf vitae.html eirik.albrigtsen.cv-$(date +%Y-%m-%d).pdf",
-    "watch": "watch-run -p 'src/*' npm run build",
+    "watch": "watchy -w 'src/*' npm run build",
     "sync": "browser-sync start --server --files=vitae.html --startPath=/vitae.html --reload-delay=100",
     "develop": "npm run build && parallelshell 'npm run watch' 'npm run sync'"
   },
@@ -22,7 +22,7 @@
   "devDependencies": {
     "browser-sync": "^2.8.2",
     "parallelshell": "^2.0.0",
-    "watch-run": "^1.2.2"
+    "watchy": "^0.6.6"
   },
   "license": "MIT"
 }
