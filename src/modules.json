@@ -1,13 +1,9 @@
 {
-  "sdp-transform": "A parser/write for the Session Description Protocol",
+  "dotfiles": "Personal dotfiles",
+  "provision": "Personal Arch Linux provisioning scripts",
+  "muslrust": "Docker environment for building musl based static rust binaries",
+  "sdp-transform": "A parser/writer for the Session Description Protocol",
   "bandage": "Generator based test harness and test runner",
-  "gu": {
-    "info": "Streaming bot makers library with regex handlers",
-    "related": [
-      "irc-stream",
-      "cleverbot-irc"
-    ]
-  },
   "symlink": "npm link helper for a flat dependency tree during development",
   "linkr-app": {
     "info": "A link sharing site prototype built with generators, jwt, koa, postgres and polymer",
@@ -24,7 +20,5 @@
       "tiebreaker"
     ]
   },
-
-  "interlude": "Functional programming utilities",
   "npm-graph": "Dependency graph generator of explicitly required modules"
 }
