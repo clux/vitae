@@ -17,7 +17,7 @@ Clone, install dependencies, and build:
 ```bash
 $ git clone https://github.com/clux/vitae.git
 $ cd vitae
-$ npm install
+$ yarn
 $ npm run build
 $ xdg-open vitae.html
 ```
