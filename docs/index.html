@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Eirik Albrigtsen - vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>body {
+  width: 700px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: initial;
+}
+
+header a {
+  float: right;
+}
+
+h2 {
+  background-color: #ccc;
+  padding: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.block li {
+  padding-left: 10px;
+}
+
+.block {
+  list-style: initial;
+  padding-left: 20px;
+}
+
+.block > li > h3 {
+  display: inline; /* so address floats correctly against it */
+
+}
+.block > li > address, .block > li > p > span {
+  float: right;
+}
+.block > li > p {
+  display: block;
+  margin: 0px;
+}
+
+.block > li > ul > li > strong::after {
+  content: ": ";
+}
+
+.block > li > ul {
+  margin-top: 5px; /*dont really want this if there's an h4 in between though*/
+  margin-bottom: 5px;
+}
+
+
+</style>
+    <meta name="author" content="Eirik Albrigtsen">
+    <meta name="original-source" content="https://github.com/clux/vitae">
+  </head>
+  <body>
+    <header>
+      <h1>Eirik Albrigtsen</h1>
+      <address>Langley, UK, SL3 7DB <a href="mailto:analsandblaster@gmail.com">analsandblaster@gmail.com</a></address>
+      <a href="https://github.com/clux">github.com/clux</a>
+    </header>
+    <ul id="main">
+      <li><h2>Profile</h2>
+<p>Passionate polyglot developer working heavily with Rust, JavaScript, bash, C++ and python seeking a rewarding role in technology. Strong abstract and analytical background in mathematics and teaching, plus a long history of developing open source modules</p>
+</li>
+      <li><h2>Education</h2>
+<ul class="block">
+  <li>
+    <h3>University of Warwick</h3>
+    <address>Coventry, UK</address>
+    <p>BSc + MA in Mathematics (First Class Honours) <span>Oct. 2006 - Jul. 2010</span></p>
+    <ul>
+      <li><strong>Relevant</strong> Computational Linear Algebra & Opimization w/LAPACK, Matrix Analysis & Algorithms, Statistical Estimators & Hypothesis Testing</li>
+      <li><strong>Project</strong> Mathematical foundations of prime generation and public key cryptography</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Agder University</h3>
+    <address>Grimstad, NO</address>
+    <p>Bachelor of Engineering (Power Electronics) <span>Aug. 2003 - Jun. 2006</span></p>
+  </li>
+</ul>
+</li>
+      <li><h2>Employment</h2>
+<ul class="block">
+  <li>
+    <h3>Cisco Systems</h3>
+    <address>Langley, UK</address>
+    <p>Software Engineer<span>2010 - Present</span></p>
+    <ul>
+      <li><strong>Generalist developer</strong>Multi-platform telepresence systems. Dealing with native protocol stacks, RFCs, bash based build systems, gtest based unit testing, python based black box automation testing, C++ security features, and cloud based Node.js micro services.</li>
+      <li><strong>DevOps</strong>Implementing and managing ansible deployed build machines, managing docker build environments, and validated-merge based regression safety barriers using LLVM sanitizers and AFL. Config-manages jenkins.</li>
+      <li><strong>Rust</strong>Designing and implementing a language dependency manager and build manager for C++ in Rust wrapping Artifactory and Docker.</li>
+      <li><strong>CMake</strong>Authoring a build system rewrite for a large master repository that significantly reduced rebuild requirements and accellerated test driven development cycles on the codebase.</li>
+      <li><strong>Protocols</strong>C++ implementation and testing of thread safe call control protocols (ICE/STUN/TURN, IX and XCCP) with mockable event loops for testing.</li>
+      <li><strong>Brag</strong>Got a team of 50 developers to agree on a C++ style guide.</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Agder University</h3>
+    <address>Grimstad, NO</address>
+    <p>Teaching Assistant<span>2004 - 2006</span></p>
+    <ul>
+      <li>Ran support classes in mathematics and physics and tutored an intensive summer course for prospective engineering students.</li>
+    </ul>
+  </li>
+</ul>
+</li>
+      <li><h2>Open Source</h2>
+<ul class="block">
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/dotfiles">dotfiles</a>
+    </h3>
+    <address>Personal dotfiles</address>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/provision">provision</a>
+    </h3>
+    <address>Personal Arch Linux provisioning scripts</address>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/muslrust">muslrust</a>
+    </h3>
+    <address>Docker environment for building musl based static rust binaries</address>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/sdp-transform">sdp-transform</a>
+    </h3>
+    <address>A parser/writer for the Session Description Protocol</address>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/bandage">bandage</a>
+    </h3>
+    <address>Generator based test harness and test runner</address>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/symlink">symlink</a>
+    </h3>
+    <address>npm link helper for a flat dependency tree during development</address>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/linkr-app">linkr-app</a>
+    </h3>
+    <address>A link sharing site prototype built with generators, jwt, koa, postgres and polymer</address>
+    
+      <ul>
+        
+          <li>
+            <a href="https://github.com/clux/deus-login">deus-login</a>
+          </li>
+        
+      </ul>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/tournament">tournament</a>
+    </h3>
+    <address>Building blocks and implementations of tournaments</address>
+    
+      <ul>
+        
+          <li>
+            <a href="https://github.com/clux/duel">duel</a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/clux/ffa">ffa</a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/clux/groupstage">groupstage</a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/clux/tiebreaker">tiebreaker</a>
+          </li>
+        
+      </ul>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/npm-graph">npm-graph</a>
+    </h3>
+    <address>Dependency graph generator of explicitly required modules</address>
+    
+  </li>
+  
+</ul>
+</li>
+      <li><h2>Languages</h2>
+<ul class="block">
+  <li>
+    <h3>JavaScript</h3>
+    <address>node 6</address>
+    <span>★★★★☆</span>
+    <ul>
+      <li>Prolific server side usage with streams and ES6 generators for personal projects ranging from CLI tools, parsers, pure libraries, stream interfaces, and web servers.</li>
+      <li>55 well-documented, and almost fully test covered packages on npm.</li>
+      <li>Recent client side development using WebComponents and browserify.</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Bash</h3>
+    <address>#!/usr/bin/env</address>
+    <span>★★★★☆</span>
+    <ul>
+      <li>Deep Linux knowledge to guide creation and usage of shell interfaces.</li>
+      <li>TDD using shellcheck and bats.</li>
+      <li>Detailed knowledge of makefiles, manpages, and autocomplete scripts.</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Rust</h3>
+    <address>stable</address>
+    <span>★★★☆☆</span>
+    <ul>
+      <li>Churns out rust about as fast as any dynamic languages</li>
+      <li>Maintainer of a large internal project - compiler error psychic</li>
+      <li>Has a no-dependency 5MB docker blog image on <em><a href="https://hub.docker.com/r/clux/blog/tags/">dockerhub:clux/blog</a></em>.</li>
+    </ul>
+  </li>
+  <li>
+    <h3>C++</h3>
+    <address>-std=c++14</address>
+    <span>★★★☆☆</span>
+    <ul>
+      <li>C++14 and <em>&lt;algorithm&gt;</em> phabricator advocate.</li>
+      <li>Deep knowledge of build systems such as cmake, make, and jam.</li>
+      <li>TDD using gtest, with LLVM sanitizers and the AFL fuzzer for sanity.</li>
+    </ul>
+  </li>
+
+  <li>
+    <h3>Haskell, Python</h3>
+    <address>stable</address>
+    <span>★★☆☆☆</span>
+    <ul>
+      <li>Occasional usage of misc languages. Fast googler.</li>
+    </ul>
+  </li>
+
+  <li>
+    <h3>Norwegian</h3>
+    <address>2006-stable</address>
+    <span>★★★★☆</span>
+    <p>Since birth</p>
+  </li>
+  <li>
+    <h3>English</h3>
+    <address>nightly</address>
+    <span>★★★★★</span>
+    <p>Since 3rd grade</p>
+  </li>
+</ul>
+</li>
+      <li><h2>Interests</h2>
+<ul class="block">
+  <li>
+    <h3>Programming</h3>
+    <p>Automation, modularity, security, configuration management, mistake prevention</p>
+  </li>
+  <li>
+    <h3>Building</h3>
+    <p>Arch desktops, CoreOS servers, the tiniest docker images</p>
+  </li>
+  <li>
+    <h3>Academic</h3>
+    <p>Cryptography, optimization of algorithms, artificial intelligence, privacy</p>
+  </li>
+  <li>
+    <h3>Misc</h3>
+    <p>Badminton, rollerblading, swimming, running, photography, gaming, classical music</p>
+  </li>
+</ul>
+</li>
+    </ul>
+  </body>
+</html>
