@@ -15,8 +15,7 @@ Locations considered are primarily in England and Norway.
 Clone, install dependencies, and build:
 
 ```bash
-$ git clone https://github.com/clux/vitae.git
-$ cd vitae
+$ git clone https://github.com/clux/vitae.git && cd vitae
 $ yarn
 $ npm run build
 $ xdg-open vitae.html

@@ -1,7 +1,7 @@
 {
   "name": "vitae",
   "private": true,
-  "description": "Personal CV",
+  "description": "personal resume",
   "author": "Eirik Albrigtsen <analsandblaster@gmail.com>",
   "version": "0.0.0",
   "repository": {
@@ -11,6 +11,7 @@
   "scripts": {
     "test": "npm run build",
     "build": "src/build.js > vitae.html",
+    "pages": "src/build.js > docs/index.html",
     "release": "wkhtmltopdf vitae.html eirik.albrigtsen.cv-$(date +%Y-%m-%d).pdf",
     "watch": "watchy -w 'src/*' npm run build",
     "sync": "browser-sync start --server --files=vitae.html --startPath=/vitae.html --reload-delay=100",
