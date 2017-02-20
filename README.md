@@ -5,7 +5,7 @@
 Personal resume, occasionally updated. Now uses HTML5 technologies instead of LaTeX for ease of maintanance. Stashed here as weak self advertising.
 
 ## Usage
-If you feel I should be exploring new horizons with YOURCOMPANY, send me an email. It's in the json.
+If you feel I should be exploring new horizons with YOURCOMPANY, send me an email.
 
 My current job is great for personal development, autonomy, and occasional remote deployment. Lenient attitudes toward these are a must, as are contributing to open source projects.
 
@@ -25,7 +25,7 @@ $ xdg-open vitae.html
 With dependencies installed, run `npm run develop`.
 
 ## Release
-To build a `.pdf` release version, run `npm run release`. This requires `wkhtmltopdf` installed. Note that issue #3 means this output is inferior to what webkit produces naturally using print to pdf.
+Print and save as pdf in a webkit browser.
 
 ## License
 MIT-Licensed. See LICENSE file for details.
