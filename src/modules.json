@@ -1,6 +1,6 @@
 {
-  "dotfiles": "Personal dotfiles",
-  "provision": "Personal Arch Linux provisioning scripts",
+  "dotfiles": "Personal environment",
+  "provision": "Personal Arch Linux ansible provisioning scripts",
   "muslrust": "Docker environment for building musl based static rust binaries",
   "sdp-transform": "A parser/writer for the Session Description Protocol",
   "bandage": "Generator based test harness and test runner",
