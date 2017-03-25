@@ -25,7 +25,7 @@ $ xdg-open vitae.html
 With dependencies installed, run `npm run develop`.
 
 ## Release
-Print and save as pdf in a webkit browser.
+Print and save as pdf in a webkit browser without headers and footers.
 
 ## License
 MIT-Licensed. See LICENSE file for details.

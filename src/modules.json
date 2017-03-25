@@ -5,12 +5,6 @@
   "sdp-transform": "A parser/writer for the Session Description Protocol",
   "bandage": "Generator based test harness and test runner",
   "symlink": "npm link helper for a flat dependency tree during development",
-  "linkr-app": {
-    "info": "A link sharing site prototype built with generators, jwt, koa, postgres and polymer",
-    "related": [
-      "deus-login"
-    ]
-  },
   "tournament": {
     "info": "Building blocks and implementations of tournaments",
     "related": [
