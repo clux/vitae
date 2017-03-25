@@ -73,7 +73,7 @@ ul {
     </header>
     <ul id="main">
       <li><h2>Profile</h2>
-<p>Passionate polyglot developer working heavily with Rust, JavaScript, bash, C++ and python seeking a rewarding role in technology. Strong abstract and analytical background in mathematics and teaching, plus a long history of developing open source modules</p>
+<p>Passionate polyglot developer and DevOps specialist working heavily with Rust, JavaScript, bash, C++ and python seeking a rewarding role in technology. Strong abstract and analytical background in mathematics and teaching, plus a long history of developing open source modules</p>
 </li>
       <li><h2>Education</h2>
 <ul class="block">
@@ -82,7 +82,7 @@ ul {
     <address>Coventry, UK</address>
     <p>BSc + MA in Mathematics (First Class Honours) <span>Oct. 2006 - Jul. 2010</span></p>
     <ul>
-      <li><strong>Relevant</strong> Computational Linear Algebra & Opimization w/LAPACK, Matrix Analysis & Algorithms, Statistical Estimators & Hypothesis Testing</li>
+      <li><strong>Relevant</strong> Computational Linear Algebra & Optimization w/LAPACK, Matrix Analysis & Algorithms, Statistical Estimators & Hypothesis Testing</li>
       <li><strong>Project</strong> Mathematical foundations of prime generation and public key cryptography</li>
     </ul>
   </li>
@@ -97,14 +97,15 @@ ul {
 <ul class="block">
   <li>
     <h3>Cisco Systems</h3>
-    <address>Langley, UK</address>
+    <address>London, UK</address>
     <p>Software Engineer<span>2010 - Present</span></p>
     <ul>
-      <li><strong>Generalist developer</strong>Multi-platform telepresence systems. Dealing with native protocol stacks, RFCs, bash based build systems, gtest based unit testing, python based black box automation testing, C++ security features, and cloud based Node.js micro services.</li>
-      <li><strong>DevOps</strong>Implementing and managing ansible deployed build machines, managing docker build environments, and validated-merge based regression safety barriers using LLVM sanitizers and AFL. Config-manages jenkins.</li>
-      <li><strong>Rust</strong>Designing and implementing a language dependency manager and build manager for C++ in Rust wrapping Artifactory and Docker.</li>
-      <li><strong>CMake</strong>Authoring a build system rewrite for a large master repository that significantly reduced rebuild requirements and accellerated test driven development cycles on the codebase.</li>
-      <li><strong>Protocols</strong>C++ implementation and testing of thread safe call control protocols (ICE/STUN/TURN, IX and XCCP) with mockable event loops for testing.</li>
+      <li><strong>CI</strong>Implemented a custom validated-merge setup for github via a config-managed jenkins. Designed and managed CoreOS build slaves with ansible.</li>
+      <li><strong>Build System</strong>Designed and implemented a full-featured CLI build system / dependency manager for C++ in Rust, wrapping Artifactory and Docker.</li>
+      <li><strong>DevOps</strong>Created and managed docker build environments, production environments, and set up regression safety barriers using LLVM sanitizers + AFL.</li>
+      <li><strong>CMake</strong>Converted a 2 MLOC master repository which significantly reduced rebuild requirements and accelerated TDD cycles on the codebase.</li>
+      <li><strong>Polyglot Generalist</strong>Worked with C++ protocol stacks, python based automation testing, and OpenStack based Node.js micro services, bash based "distributed crontab" jenkins.</li>
+      <li><strong>Protocols</strong>C++ implementation of thread safe call control protocols from RFCs (ICE/STUN/TURN, IX and XCCP), using mockable event loops for testing.</li>
       <li><strong>Brag</strong>Got a team of 50 developers to agree on a C++ style guide.</li>
     </ul>
   </li>
@@ -171,22 +172,6 @@ ul {
   
   <li>
     <h3>
-      <a href="https://github.com/clux/linkr-app">linkr-app</a>
-    </h3>
-    <address>A link sharing site prototype built with generators, jwt, koa, postgres and polymer</address>
-    
-      <ul>
-        
-          <li>
-            <a href="https://github.com/clux/deus-login">deus-login</a>
-          </li>
-        
-      </ul>
-    
-  </li>
-  
-  <li>
-    <h3>
       <a href="https://github.com/clux/tournament">tournament</a>
     </h3>
     <address>Building blocks and implementations of tournaments</address>
@@ -226,19 +211,19 @@ ul {
       <li><h2>Languages</h2>
 <ul class="block">
   <li>
-    <h3>JavaScript</h3>
-    <address>node 6</address>
-    <span>★★★★☆</span>
+    <h3>Rust</h3>
+    <address>stable</address>
+    <span></span>
     <ul>
-      <li>Prolific server side usage with streams and ES6 generators for personal projects ranging from CLI tools, parsers, pure libraries, stream interfaces, and web servers.</li>
-      <li>55 well-documented, and almost fully test covered packages on npm.</li>
-      <li>Recent client side development using WebComponents and browserify.</li>
+      <li>Churns out rust about as fast as any dynamic languages</li>
+      <li>Maintainer of a large company project - compiler error psychic</li>
+      <li>Has a no-dependency 5MB docker blog image on <em><a href="https://hub.docker.com/r/clux/blog/tags/">dockerhub:clux/blog</a></em>.</li>
     </ul>
   </li>
   <li>
     <h3>Bash</h3>
     <address>#!/usr/bin/env</address>
-    <span>★★★★☆</span>
+    <span></span>
     <ul>
       <li>Deep Linux knowledge to guide creation and usage of shell interfaces.</li>
       <li>TDD using shellcheck and bats.</li>
@@ -246,30 +231,29 @@ ul {
     </ul>
   </li>
   <li>
-    <h3>Rust</h3>
-    <address>stable</address>
-    <span>★★★☆☆</span>
-    <ul>
-      <li>Churns out rust about as fast as any dynamic languages</li>
-      <li>Maintainer of a large internal project - compiler error psychic</li>
-      <li>Has a no-dependency 5MB docker blog image on <em><a href="https://hub.docker.com/r/clux/blog/tags/">dockerhub:clux/blog</a></em>.</li>
-    </ul>
-  </li>
-  <li>
     <h3>C++</h3>
     <address>-std=c++14</address>
-    <span>★★★☆☆</span>
+    <span></span>
     <ul>
       <li>C++14 and <em>&lt;algorithm&gt;</em> phabricator advocate.</li>
       <li>Deep knowledge of build systems such as cmake, make, and jam.</li>
       <li>TDD using gtest, with LLVM sanitizers and the AFL fuzzer for sanity.</li>
     </ul>
   </li>
+  <li>
+    <h3>JavaScript</h3>
+    <address>node 6</address>
+    <span></span>
+    <ul>
+      <li>Prolific server side usage with streams and ES6 generators for personal projects ranging from CLI tools, parsers, pure libraries, stream interfaces, and web servers.</li>
+      <li>55 well-documented, and almost fully test covered packages on npm.</li>
+    </ul>
+  </li>
 
   <li>
-    <h3>Haskell, Python</h3>
+    <h3>Haskell, Python 2/3</h3>
     <address>stable</address>
-    <span>★★☆☆☆</span>
+    <span></span>
     <ul>
       <li>Occasional usage of misc languages. Fast googler.</li>
     </ul>
@@ -278,13 +262,13 @@ ul {
   <li>
     <h3>Norwegian</h3>
     <address>2006-stable</address>
-    <span>★★★★☆</span>
+    <span></span>
     <p>Since birth</p>
   </li>
   <li>
     <h3>English</h3>
     <address>nightly</address>
-    <span>★★★★★</span>
+    <span></span>
     <p>Since 3rd grade</p>
   </li>
 </ul>
@@ -304,8 +288,8 @@ ul {
     <p>Cryptography, optimization of algorithms, artificial intelligence, privacy</p>
   </li>
   <li>
-    <h3>Misc</h3>
-    <p>Badminton, rollerblading, swimming, running, photography, gaming, classical music</p>
+    <h3>Play</h3>
+    <p>Badminton, rollerblading, swimming, running, photography, violin</p>
   </li>
 </ul>
 </li>
