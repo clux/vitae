@@ -17,12 +17,12 @@ Clone, install dependencies, and build:
 ```bash
 $ git clone https://github.com/clux/vitae.git && cd vitae
 $ yarn
-$ npm run build
+$ yarn build
 $ xdg-open vitae.html
 ```
 
 ## Developing
-With dependencies installed, run `npm run develop`.
+With dependencies installed, run `yarn develop`.
 
 ## Release
 Print and save as pdf in a webkit browser without headers and footers.
