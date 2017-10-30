@@ -3,7 +3,7 @@
   <% Object.keys(modules).forEach(function (k) { var m = modules[k]; %>
   <li>
     <h3>
-      <a href="https://github.com/clux/<%=k%>"><%=k%></a>
+      <a href="https://github.com/<%=m.owner || "clux"%>/<%=m.repo || k%>"><%=k%></a>
     </h3>
     <address><%=m.info || m%></address>
     <% if (m.related) { %>
