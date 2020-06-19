@@ -1,13 +1,12 @@
 {
-  "dotfiles": "Personal environment",
-  "provision": "Personal Arch Linux ansible provisioning scripts",
+  "provision": "Arch Linux ansible provisioning scripts",
   "lal": {
     "info": "A language-agnostic build system and dependency manager",
     "repo": "lal-build-manager",
     "owner": "cisco"
   },
   "muslrust": "Docker environment for building musl based static rust binaries",
-  "sdp-transform": "A parser/writer for the Session Description Protocol",
+  "webapp-rs": "Rust microservice setup with postgres, and diesel + rocket in docker",
   "bandage": "Generator based test harness and test runner",
   "tournament": {
     "info": "Building blocks and implementations of tournaments",
