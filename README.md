@@ -12,17 +12,10 @@ My current job is great for personal development, autonomy, and occasional remot
 Locations considered are primarily in England and Norway.
 
 ## Building
-Clone, install dependencies, and build:
-
-```bash
-$ git clone https://github.com/clux/vitae.git && cd vitae
-$ yarn
-$ yarn build
-$ xdg-open vitae.html
-```
+Clone, install dependencies, and run `npm run build`.
 
 ## Developing
-With dependencies installed, run `yarn develop`.
+With dependencies + [gnu `parallel`](https://en.wikipedia.org/wiki/GNU_parallel) installed, run `npm run develop`.
 
 ## Release
 Print and save as pdf in a webkit browser without headers and footers.

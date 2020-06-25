@@ -14,15 +14,14 @@
     "pages": "src/build.js > docs/index.html",
     "watch": "watchy -w 'src/*' npm run build",
     "sync": "browser-sync start --server --files=vitae.html --startPath=/vitae.html --reload-delay=100",
-    "develop": "npm run build && parallelshell 'npm run watch' 'npm run sync'"
+    "develop": "npm run build && (echo npm run sync; echo npm run watch) | parallel"
   },
   "dependencies": {
     "combustion": "~0.3.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.8.2",
-    "parallelshell": "^2.0.0",
-    "watchy": "^0.6.6"
+    "browser-sync": "^2.26.7",
+    "watchy": "^0.9.7"
   },
   "license": "MIT"
 }
