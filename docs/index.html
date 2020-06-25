@@ -73,7 +73,7 @@ ul {
     </header>
     <ul id="main">
       <li><h2>Profile</h2>
-<p>Passionate polyglot developer and DevOps engineer working heavily with Rust, JavaScript, bash, C++ and Python seeking a rewarding role in technology. Strong abstract and analytical background in mathematics and teaching, plus a long history of developing open source modules</p>
+<p>Passionate polyglot developer and DevOps engineer working heavily with Rust, bash, JavaScript, C++ and Python seeking a rewarding role in technology. Strong abstract and analytical background in mathematics and teaching, plus a long history of developing open source modules</p>
 </li>
       <li><h2>Education</h2>
 <ul class="block">
@@ -98,7 +98,13 @@ ul {
   <li>
     <h3>Babylon Health</h3>
     <address>London, UK</address>
-    <p>DevOps Engineer<span>2017 - Present</span></p>
+    <p>Staff Platform Engineer<span>2017 - Present</span></p>
+    <ul>
+      <li><strong>CI</strong>Created the centralised CI pipeline standardisation setup for 500 microservices (shipcat).</li>
+      <li><strong>Access</strong>Built the developer interface to kubernetes + vault, and automated onboarding plus access policy provisioning based on service ownership.</li>
+      <li><strong>Cost</strong>Built analytical kubernetes resource cost calculator that helped reduce 10% node usage.</li>
+      <li><strong>Ops</strong>Maintained kubernetes releases for flux, filebeat, logstash, teleport, sentry, prometheus, thanos, and third party integrations for: quay.io, circleci, statuscake, kong.</li>
+    </ul>
   </li>
   <li>
     <h3>Cisco Systems</h3>
@@ -106,7 +112,7 @@ ul {
     <p>Software Engineer<span>2010 - 2017</span></p>
     <ul>
       <li><strong>CI</strong>Implemented a custom validated-merge setup for github via a config-managed jenkins. Designed and managed CoreOS build slaves with ansible.</li>
-      <li><strong>Build System</strong>Designed and implemented a full-featured CLI build system / dependency manager for C++ in Rust, wrapping Artifactory and Docker.</li>
+      <li><strong>Build System</strong>Designed and implemented a full-featured CLI build system / dependency manager for C++ in Rust, wrapping Artifactory and Docker (lal)</li>
       <li><strong>Security/Ops</strong>Created and managed docker build environments, production environments, and set up regression safety barriers using LLVM sanitizers + AFL.</li>
       <li><strong>CMake</strong>Converted a 2 MLOC master repository which significantly reduced rebuild requirements and accelerated TDD cycles on the codebase.</li>
       <li><strong>Polyglot Generalist</strong>Worked with C++ protocol stacks, python based automation testing, and OpenStack based Node.js micro services, bash based "distributed crontab" jenkins.</li>
@@ -130,17 +136,17 @@ ul {
   
   <li>
     <h3>
-      <a href="https://github.com/clux/dotfiles">dotfiles</a>
+      <a href="https://github.com/clux/kube-rs">kube-rs</a>
     </h3>
-    <address>Personal environment</address>
+    <address>kubernetes client and futures controller runtime</address>
     
   </li>
   
   <li>
     <h3>
-      <a href="https://github.com/clux/provision">provision</a>
+      <a href="https://github.com/babylonhealth/shipcat">shipcat</a>
     </h3>
-    <address>Personal Arch Linux ansible provisioning scripts</address>
+    <address>A kubernetes deployment and standardisation tool for microservices</address>
     
   </li>
   
@@ -154,6 +160,14 @@ ul {
   
   <li>
     <h3>
+      <a href="https://github.com/clux/provision">provision</a>
+    </h3>
+    <address>Arch Linux ansible provisioning scripts</address>
+    
+  </li>
+  
+  <li>
+    <h3>
       <a href="https://github.com/clux/muslrust">muslrust</a>
     </h3>
     <address>Docker environment for building musl based static rust binaries</address>
@@ -162,17 +176,9 @@ ul {
   
   <li>
     <h3>
-      <a href="https://github.com/clux/sdp-transform">sdp-transform</a>
+      <a href="https://github.com/clux/webapp-rs">webapp-rs</a>
     </h3>
-    <address>A parser/writer for the Session Description Protocol</address>
-    
-  </li>
-  
-  <li>
-    <h3>
-      <a href="https://github.com/clux/bandage">bandage</a>
-    </h3>
-    <address>Generator based test harness and test runner</address>
+    <address>Rust microservice setup with postgres, and diesel + rocket in docker</address>
     
   </li>
   
@@ -180,27 +186,7 @@ ul {
     <h3>
       <a href="https://github.com/clux/tournament">tournament</a>
     </h3>
-    <address>Building blocks and implementations of tournaments</address>
-    
-      <ul>
-        
-          <li>
-            <a href="https://github.com/clux/duel">duel</a>
-          </li>
-        
-          <li>
-            <a href="https://github.com/clux/ffa">ffa</a>
-          </li>
-        
-          <li>
-            <a href="https://github.com/clux/groupstage">groupstage</a>
-          </li>
-        
-          <li>
-            <a href="https://github.com/clux/tiebreaker">tiebreaker</a>
-          </li>
-        
-      </ul>
+    <address>Building blocks for competitive tournament brackets</address>
     
   </li>
   
@@ -221,17 +207,17 @@ ul {
     <address>nightly/stable</address>
     <span></span>
     <ul>
-      <li>About as fast as with dynamic languages after understanding the borrow checker</li>
+      <li>About as fast as with dynamic languages after having battled the borrow checker</li>
       <li>Has a no-dependency 5MB docker blog at <em><a href="https://hub.docker.com/r/clux/blog/tags/">dockerhub:clux/blog</a></em></li>
     </ul>
   </li>
   <li>
     <h3>Bash</h3>
-    <address>4</address>
+    <address>5</address>
     <span></span>
     <ul>
       <li>Deep knowledge of Linux tools and patterns for designing good shell interfaces</li>
-      <li>TDD using shellcheck and bats - but more often wraps it up in ansible</li>
+      <li>TDD using shellcheck and bats - but tries to limit the sprawl</li>
     </ul>
   </li>
   <li>
@@ -245,21 +231,21 @@ ul {
   </li>
   <li>
     <h3>JavaScript</h3>
-    <address>node 6</address>
+    <address>ES6</address>
     <span></span>
     <ul>
-      <li>Prolific server side usage with streams and ES6 generators</li>
+      <li>Prolific server side usage with streams and generators</li>
       <li>Front end development with react, stylus, webpack, autoprefixer, babel</li>
       <li>55 well-documented, and almost fully test covered packages on npm</li>
     </ul>
   </li>
 
   <li>
-    <h3>Python 2/3, Haskell</h3>
+    <h3>Python 2/3, Haskell, Go</h3>
     <address>various</address>
     <span></span>
     <ul>
-      <li>Less used, but well versed in</li>
+      <li>Can make things work when needed</li>
     </ul>
   </li>
 
@@ -285,15 +271,15 @@ ul {
   </li>
   <li>
     <h3>Building</h3>
-    <p>Arch desktops, CoreOS servers, the tiniest docker images</p>
+    <p>Arch desktops, tiny servers with the tiniest docker images</p>
   </li>
   <li>
     <h3>Academic</h3>
-    <p>Cryptography, optimization of algorithms, artificial intelligence, privacy</p>
+    <p>Cryptography, security, optimization of algorithms, privacy</p>
   </li>
   <li>
     <h3>Play</h3>
-    <p>Classical music, rollerblading, running, badminton, swimming</p>
+    <p>Piano, running, badminton, swimming, muay thai</p>
   </li>
 </ul>
 </li>
