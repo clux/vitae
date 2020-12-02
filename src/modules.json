@@ -10,9 +10,9 @@
     "repo": "lal-build-manager",
     "owner": "cisco"
   },
-  "provision": "Arch Linux ansible provisioning scripts",
   "muslrust": "Docker environment for building musl based static rust binaries",
-  "webapp-rs": "Rust microservice setup with postgres, and diesel + rocket in docker",
+  "controller-rs": "A kubernetes example controller",
+  "sdp-transform": "A parser/writer for the Session Description Protocol",
   "tournament": "Building blocks for competitive tournament brackets",
-  "npm-graph": "Dependency graph generator of explicitly required modules"
+  "provision": "Arch Linux ansible provisioning scripts"
 }
