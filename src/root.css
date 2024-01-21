@@ -9,8 +9,11 @@ a {
   text-decoration: initial;
 }
 
-header a {
+header .right {
   float: right;
+}
+header .left {
+  float: left;
 }
 
 h2 {
