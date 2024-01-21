@@ -1,18 +1,26 @@
 {
-  "kube-rs": "kubernetes client and futures controller runtime",
+  "kube-rs": {
+    "info": "Rust Kubernetes client and controller runtime",
+    "repo": "kube",
+    "owners": "kube-rs"
+  },
+  "muslrust": "Docker environment for building musl based static rust binaries",
   "shipcat": {
     "info": "Kubernetes deployment and standardisation tool for microservices",
     "repo": "shipcat",
-    "owner": "babylonhealth"
+    "owner": "clux"
   },
+  "sdp-transform": "Parser/writer for the Session Description Protocol",
+  "kopium": {
+    "info": "Kubernetes OPenapI UnMangler",
+    "owner": "kube-rs",
+    "repo": "kopium"
+  },
+  "controller-rs": "Kubernetes example controller with metrics & tracing",
   "lal": {
     "info": "Language-agnostic build system and dependency manager",
     "repo": "lal-build-manager",
     "owner": "cisco"
   },
-  "muslrust": "Docker environment for building musl based static rust binaries",
-  "controller-rs": "Kubernetes example controller with metrics & tracing",
-  "sdp-transform": "Parser/writer for the Session Description Protocol",
-  "tournament": "Building blocks for competitive tournament brackets",
   "provision": "Arch Linux ansible provisioning scripts"
 }
