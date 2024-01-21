@@ -74,25 +74,7 @@ ul {
     </header>
     <ul id="main">
       <li><h2>Profile</h2>
-<p>Passionate polyglot developer, rust and kubernetes specialist, and public speaker seeking a rewarding role in technology. Strong abstract and analytical background in mathematics and teaching, plus a long history of developing open source.</p>
-</li>
-      <li><h2>Education</h2>
-<ul class="block">
-  <li>
-    <h3>University of Warwick</h3>
-    <address>Coventry, UK</address>
-    <p>BSc + MA in Mathematics (First Class Honours) <span>Oct. 2006 - Jul. 2010</span></p>
-    <ul>
-      <li><strong>Relevant</strong> Computational Linear Algebra & Optimization w/LAPACK, Matrix Analysis & Algorithms, Statistical Estimators & Hypothesis Testing</li>
-      <li><strong>Project</strong> Number theory of <a href="https://en.wikipedia.org/wiki/Solovay%E2%80%93Strassen_primality_test">SS</a>, <a href="https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test">MR</a>, <a href="https://en.wikipedia.org/wiki/AKS_primality_test">AKS</a> primality tests plus <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA</a>, <a href="https://en.wikipedia.org/wiki/Goldwasser%E2%80%93Micali_cryptosystem">GM</a>, <a href="https://en.wikipedia.org/wiki/Paillier_cryptosystem">Paillier</a> cryptosystems <sup><a href="./warwick-4th-year-project.pdf">[*]</a></li>
-    </ul>
-  </li>
-  <!--<li>
-    <h3>Agder University</h3>
-    <address>Grimstad, NO</address>
-    <p>Bachelor of Engineering (Power Electronics) <span>Aug. 2003 - Jun. 2006</span></p>
-  </li>-->
-</ul>
+<p>Passionate polyglot developer, Rust and Kubernetes specialist, and public speaker seeking a rewarding role in technology. Strong abstract and analytical background in mathematics and teaching, plus a long history of developing open source.</p>
 </li>
       <li><h2>Employment</h2>
 <ul class="block">
@@ -101,7 +83,10 @@ ul {
     <address>London, UK</address>
     <p>Site Reliability Engineer<span>2021</span></p>
     <ul>
-      <li><strong>Observability</strong>Extending Prometheus suite with Tempo and Loki. PoCing Rust with Tempo.</li>
+      <li><strong>Observability</strong>Managed agented prometheus-stack, thanos, grafana, dashboards, metric libraries.</li>
+      <li><strong>Kubernetes</strong>Wrote sucessful Rust controllers, and the company application helm chart.</li>
+      <li><strong>CI</strong>Developed a platform api around SSDLC + security constraints via orbs/actions.</li>
+      <li><strong>CD</strong>Managed deployment flow via flux2, and canary releases with flagger and linkerd.</li>
     </ul>
   </li>
   <li>
@@ -139,76 +124,92 @@ ul {
     </ul>
   </li>-->
 </ul>
-<br/>
 </li>
-      <br><br> <!-- temporary nice split of sections into two pages -->
+      <li><h2>Education</h2>
+<ul class="block">
+  <li>
+    <h3>University of Warwick</h3>
+    <address>Coventry, UK</address>
+    <p>BSc + MA in Mathematics (First Class Honours) <span>Oct. 2006 - Jul. 2010</span></p>
+    <ul>
+      <li><strong>Relevant</strong> Computational Linear Algebra & Optimization w/LAPACK, Matrix Analysis & Algorithms, Statistical Estimators & Hypothesis Testing</li>
+      <li><strong>Project</strong> Number theory of <a href="https://en.wikipedia.org/wiki/Solovay%E2%80%93Strassen_primality_test">SS</a>, <a href="https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test">MR</a>, <a href="https://en.wikipedia.org/wiki/AKS_primality_test">AKS</a> primality tests plus <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA</a>, <a href="https://en.wikipedia.org/wiki/Goldwasser%E2%80%93Micali_cryptosystem">GM</a>, <a href="https://en.wikipedia.org/wiki/Paillier_cryptosystem">Paillier</a> cryptosystems <sup><a href="./warwick-4th-year-project.pdf">[*]</a></li>
+    </ul>
+  </li>
+  <!--<li>
+    <h3>Agder University</h3>
+    <address>Grimstad, NO</address>
+    <p>Bachelor of Engineering (Power Electronics) <span>Aug. 2003 - Jun. 2006</span></p>
+  </li>-->
+</ul>
+</li>
       <li><h2>Open Source</h2>
 <ul class="block">
-
+  
   <li>
     <h3>
-      <a href="https://github.com/kube-rs">kube-rs</a>
+      <a href="https://github.com/clux/kube">kube-rs</a>
     </h3>
-    <address>kubernetes client and async controller runtime</address>
-
+    <address>Rust Kubernetes client and controller runtime</address>
+    
   </li>
-
-  <li>
-    <h3>
-      <a href="https://github.com/clux/shipcat">shipcat</a>
-    </h3>
-    <address>Kubernetes deployment and standardisation tool for microservices</address>
-
-  </li>
-
-  <li>
-    <h3>
-      <a href="https://github.com/cisco/lal-build-manager">lal</a>
-    </h3>
-    <address>Language-agnostic build system and dependency manager</address>
-
-  </li>
-
+  
   <li>
     <h3>
       <a href="https://github.com/clux/muslrust">muslrust</a>
     </h3>
     <address>Docker environment for building musl based static rust binaries</address>
-
+    
   </li>
-
+  
   <li>
     <h3>
-      <a href="https://github.com/clux/controller-rs">controller-rs</a>
+      <a href="https://github.com/clux/shipcat">shipcat</a>
     </h3>
-    <address>Kubernetes example controller with metrics & tracing</address>
-
+    <address>Kubernetes deployment and standardisation tool for microservices</address>
+    
   </li>
-
+  
   <li>
     <h3>
       <a href="https://github.com/clux/sdp-transform">sdp-transform</a>
     </h3>
     <address>Parser/writer for the Session Description Protocol</address>
-
+    
   </li>
-
+  
   <li>
     <h3>
-      <a href="https://github.com/clux/tournament">tournament</a>
+      <a href="https://github.com/kube-rs/kopium">kopium</a>
     </h3>
-    <address>Building blocks for competitive tournament brackets</address>
-
+    <address>Kubernetes OPenapI UnMangler</address>
+    
   </li>
-
+  
+  <li>
+    <h3>
+      <a href="https://github.com/clux/controller-rs">controller-rs</a>
+    </h3>
+    <address>Kubernetes example controller with metrics & tracing</address>
+    
+  </li>
+  
+  <li>
+    <h3>
+      <a href="https://github.com/cisco/lal-build-manager">lal</a>
+    </h3>
+    <address>Language-agnostic build system and dependency manager</address>
+    
+  </li>
+  
   <li>
     <h3>
       <a href="https://github.com/clux/provision">provision</a>
     </h3>
     <address>Arch Linux ansible provisioning scripts</address>
-
+    
   </li>
-
+  
 </ul>
 </li>
       <li><h2>Languages</h2>
@@ -218,8 +219,8 @@ ul {
     <address>nightly/stable</address>
     <span></span>
     <ul>
-      <li>Maintains the kubernetes rust client and controller runtime (<a href="https://kccnceu20.sched.com/event/Zeit">talked at KubeCon</a>)</li>
-      <li>Lead several large rust projects in two companies</li>
+      <li>Maintains the Kubernetes Rust client + controller runtime (<a href="https://kccnceu20.sched.com/event/Zeit">talked at KubeCon</a> + donated it to CNCF).</li>
+      <li>Lead several large rust projects in three companies.</li>
       <!--<li>Has a no-dependency 5MB docker blog at <em><a href="https://hub.docker.com/r/clux/blog/tags/">dockerhub:clux/blog</a></em></li>-->
     </ul>
   </li>
@@ -228,8 +229,8 @@ ul {
     <address>5</address>
     <span></span>
     <ul>
-      <li>Deep knowledge of Linux tools and patterns for designing good shell interfaces</li>
-      <li>TDD using shellcheck and bats - but tries to limit the sprawl</li>
+      <li>Deep knowledge of Linux tools and patterns for designing good shell interfaces.</li>
+      <li>Uses shellcheck and does TDD with bats (but feels a little bad about it).</li>
     </ul>
   </li>
   <li>
@@ -237,8 +238,8 @@ ul {
     <address>-std=c++14</address>
     <span></span>
     <ul>
-      <li>C++14 and <em>&lt;algorithm&gt;</em> phabricator advocate</li>
-      <li>Detailed knowledge of build systems, sanitizers, fuzzers</li>
+      <li><em>&lt;algorithm&gt;</em> review advocate. Focused on build systems, sanitizers, fuzzers.</li>
+      <!-- <li>Focused on release engineering; build systems, sanitizers, fuzzers, glue</li> -->
     </ul>
   </li>
   <li>
@@ -246,9 +247,9 @@ ul {
     <address>ES6</address>
     <span></span>
     <ul>
-      <li>Prolific server side usage with streams and generators</li>
-      <li>Front end development with react, stylus, webpack, autoprefixer, babel</li>
-      <li>55 well-documented, and almost fully test covered packages on npm</li>
+      <!-- <li>Prolific server side usage with streams and generators</li> -->
+      <!-- <li>Front end development with react, stylus, webpack, autoprefixer, babel</li> -->
+      <li>55 well-documented, test covered <a href="https://www.npmjs.com/~clux">packages on npm</a>, but moved away from the eco</li>
     </ul>
   </li>
 
