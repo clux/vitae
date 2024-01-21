@@ -2,7 +2,7 @@
   "kube-rs": {
     "info": "Rust Kubernetes client and controller runtime",
     "repo": "kube",
-    "owners": "kube-rs"
+    "owner": "kube-rs"
   },
   "muslrust": "Docker environment for building musl based static rust binaries",
   "shipcat": {
